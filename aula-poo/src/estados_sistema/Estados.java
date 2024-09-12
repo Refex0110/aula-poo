@@ -1,3 +1,4 @@
+package estados_sistema;
 public enum Estados {
     //criando um objeto já definindo suas caracteristicas
     SAO_PAULO("SP", "São Paulo",11),
@@ -10,6 +11,7 @@ public enum Estados {
     private String sigla;
     private int ibge;
     //construtor
+    //atributos relevantes apenas para existência
     private Estados(String sigla, String nome, int ibge){
         this.sigla = sigla;
         this.nome = nome;

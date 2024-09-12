@@ -1,8 +1,9 @@
+package estados_sistema;
 public class SistemaIbge {
     public static void main(String[] args) {
-        for(Estados e: Estados.values()){
-            //System.out.println(e.getSigla() + " - " + e.getNome());
-        }
+        /*for(Estados e: Estados.values()){
+            System.out.println(e.getSigla() + " - " + e.getNome());
+        }*/
         Estados eb = Estados.MARANHAO;
         System.out.println(eb.getNome());
         System.out.println(eb.getSigla());
